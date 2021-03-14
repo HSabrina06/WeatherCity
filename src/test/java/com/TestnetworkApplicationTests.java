@@ -2,17 +2,23 @@ package com;/*
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;*/
 
-import com.project.testnetwork.client.WeatherClient;
-import com.project.testnetwork.model.CityWeather;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
 
-//@SpringBootTest
+@SpringBootTest
 class TestnetworkApplicationTests {
+    /*@Autowired
+    WeatherService weatherService;
+
     @Autowired
-    WeatherClient weatherClient;
-    // @Test
+    Model model;
+
+     @Test
     void contextLoads() {
-      /*  public Object index() {
+
+        String result = weatherService.weatherCity("Istanbul", model);
+        System.out.println("Test   : " + result);
+
+      *//*  public Object index() {
             try {
                 CityWeather cityWeather = weatherClient.searchCurrentWeathers("Istanbul");
                 System.out.println("==========> " + cityWeather);
@@ -21,7 +27,7 @@ class TestnetworkApplicationTests {
                 System.out.println("================> ddddddddddddddddddddddddddd");
                 return "error";
             }
-        }*/
-    }
+        }*//*
+    }*/
 
 }
